@@ -2,6 +2,8 @@
 
 A Weekly/Daily Swing JComponent Calendar View inspired by Google Calendar.
 
+*Note that this project makes use of Java 8 features such as Lambdas.*
+
 ## Screenshots
 
 Below, the current day these were taken was Friday, 18th November 2016 at 11:15am.
