@@ -13,11 +13,13 @@ public class WeekCalendarTest {
         JFrame frm = new JFrame();
 
         ArrayList<CalendarEvent> events = new ArrayList<>();
-        events.add(new CalendarEvent(LocalDate.of(2016, 11, 7), LocalTime.of(9, 0), LocalTime.of(9, 20), "Test 7/11 9:00-9:20"));
-        events.add(new CalendarEvent(LocalDate.of(2016, 11, 9), LocalTime.of(9, 0), LocalTime.of(9, 20), "Test 9/11 9:00-9:20"));
-        events.add(new CalendarEvent(LocalDate.of(2016, 11, 8), LocalTime.of(12, 0), LocalTime.of(13, 20), "Test 8/11 12:00-13:20"));
-        events.add(new CalendarEvent(LocalDate.of(2016, 11, 4), LocalTime.of(14, 0), LocalTime.of(14, 20), "Test 4/11 14:00-14:20"));
-        events.add(new CalendarEvent(LocalDate.of(2016, 11, 16), LocalTime.of(11, 30), LocalTime.of(12, 20), "Test 16/11 11:30-12:20"));
+        events.add(new CalendarEvent(LocalDate.of(2016, 11, 11), LocalTime.of(14, 0), LocalTime.of(14, 20), "Test 11/11 14:00-14:20"));
+        events.add(new CalendarEvent(LocalDate.of(2016, 11, 14), LocalTime.of(9, 0), LocalTime.of(9, 20), "Test 14/11 9:00-9:20"));
+        events.add(new CalendarEvent(LocalDate.of(2016, 11, 15), LocalTime.of(12, 0), LocalTime.of(13, 20), "Test 15/11 12:00-13:20"));
+        events.add(new CalendarEvent(LocalDate.of(2016, 11, 16), LocalTime.of(9, 0), LocalTime.of(9, 20), "Test 16/11 9:00-9:20"));
+        events.add(new CalendarEvent(LocalDate.of(2016, 11, 17), LocalTime.of(12, 15), LocalTime.of(14, 20), "Test 17/11 12:15-14:20"));
+        events.add(new CalendarEvent(LocalDate.of(2016, 11, 18), LocalTime.of(9, 30), LocalTime.of(10, 00), "Test 18/11 9:30-10:00"));
+        events.add(new CalendarEvent(LocalDate.of(2016, 11, 18), LocalTime.of(16, 00), LocalTime.of(16, 45), "Test 18/11 16:00-16:45"));
 
         WeekCalendar cal = new WeekCalendar(events);
 
