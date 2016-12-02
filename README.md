@@ -4,6 +4,8 @@ A Weekly/Daily Swing JComponent Calendar View inspired by Google Calendar.
 
 ## Screenshots
 
+Below, the current day these were taken was Friday, 18th November 2016 at 11:15am.
+
 ![Week View Calendar](/screenshots/WeekCalendar.png?raw=true "Week View Calendar")
 ![Day View Calendar](/screenshots/DayCalendar.png?raw=true "Day View Calendar")
 
